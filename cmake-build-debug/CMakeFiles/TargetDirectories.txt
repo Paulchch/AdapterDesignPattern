@@ -1,0 +1,6 @@
+/home/pablo/Programming/progra2/StructuralAdapterDP/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/pablo/Programming/progra2/StructuralAdapterDP/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/pablo/Programming/progra2/StructuralAdapterDP/cmake-build-debug/src/CMakeFiles/StructuralAdapterDP_run.dir
+/home/pablo/Programming/progra2/StructuralAdapterDP/cmake-build-debug/src/CMakeFiles/StructuralAdapterDP_lib.dir
+/home/pablo/Programming/progra2/StructuralAdapterDP/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+/home/pablo/Programming/progra2/StructuralAdapterDP/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir

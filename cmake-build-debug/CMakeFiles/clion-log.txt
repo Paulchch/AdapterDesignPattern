@@ -1,0 +1,4 @@
+/home/pablo/clion-2022.1.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/pablo/clion-2022.1.1/bin/ninja/linux/ninja -G Ninja -S /home/pablo/Programming/progra2/StructuralAdapterDP -B /home/pablo/Programming/progra2/StructuralAdapterDP/cmake-build-debug
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pablo/Programming/progra2/StructuralAdapterDP/cmake-build-debug

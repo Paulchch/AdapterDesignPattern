@@ -1,0 +1,5 @@
+# ninja log v5
+0	245	1652751875181144343	src/CMakeFiles/StructuralAdapterDP_lib.dir/Main.cpp.o	fd49420b021f9937
+245	254	1652751875193149215	src/libStructuralAdapterDP_lib.a	cd48284b23d1aa91
+0	327	1652751875869423646	src/CMakeFiles/StructuralAdapterDP_run.dir/Main.cpp.o	92d4e22b3af26845
+327	390	1652751875933449628	src/StructuralAdapterDP_run	2a94c9ebd5d59228
