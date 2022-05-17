@@ -1,6 +1,9 @@
 # ninja log v5
 1	227	1652755415515646827	src/CMakeFiles/StructuralAdapterDP_run.dir/Main.cpp.o	92d4e22b3af26845
+1	282	1652761688981914852	src/CMakeFiles/StructuralAdapterDP_run.dir/OilInLitres.cpp.o	8fda240df28c7b7e
 231	235	1652755414843892966	src/libStructuralAdapterDP_lib.a	cd48284b23d1aa91
-1	15	1652755767281792242	src/CMakeFiles/StructuralAdapterDP_run.dir/Oil.cpp.o	710abeddf434851b
-15	67	1652755767333787457	src/StructuralAdapterDP_run	9c9cd0f32adff798
+0	289	1652761688989914598	src/CMakeFiles/StructuralAdapterDP_run.dir/Oil.cpp.o	710abeddf434851b
+290	348	1652761689045912840	src/StructuralAdapterDP_run	48e94ffbeb201692
 0	231	1652755414839894435	src/CMakeFiles/StructuralAdapterDP_lib.dir/Main.cpp.o	fd49420b021f9937
+1	222	1652762222584694451	src/CMakeFiles/StructuralAdapterDP_run.dir/OilInGallonsAdapter.cpp.o	8cffcc23bd67dd08
+222	273	1652762222636701086	src/StructuralAdapterDP_run	b5a22e866f82fbf5
