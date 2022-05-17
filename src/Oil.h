@@ -6,14 +6,31 @@
 #define STRUCTURALADAPTERDP_OIL_H
 
 
+#include <ostream>
+
+/*
+ * Object Oil, it represents an Oil Barrel
+ */
 class Oil {
-public:
-    Oil(double price, double litres);
 
 private:
     double price;
     double litres;
+
 public:
+    double getPrice() const;
+
+    void setPrice(double price);
+
+    double getLitres() const;
+
+    void setLitres(double litres);
+
+    Oil(double price, double litres);
+
+    virtual ~Oil();
+
+    friend std::ostream &operator<<(std::ostream &os, const Oil &oil);
 
 };
 
