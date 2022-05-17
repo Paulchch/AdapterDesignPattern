@@ -5,6 +5,7 @@
 #include "OilInLitres.h"
 
 Oil OilInLitres::buyOil(double price, double quantityInLitres) {
+
     return Oil(price, quantityInLitres);
 }
 

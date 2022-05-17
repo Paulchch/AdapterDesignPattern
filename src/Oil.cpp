@@ -4,7 +4,10 @@
 
 #include "Oil.h"
 
-Oil::Oil(double price, double litres) : price(price), litres(litres) {}
+Oil::Oil(double price, double litres) : price(price), litres(litres) {
+    totalPrice = price * litres;
+    std::cout << "Total Cost of purchase is " << totalPrice << " dollars. Purchase Complete." << std::endl;
+}
 
 Oil::~Oil() {
 
@@ -27,6 +30,23 @@ void Oil::setLitres(double litres) {
 }
 
 std::ostream &operator<<(std::ostream &os, const Oil &oil) {
-    os << "price: " << oil.price << " litres: " << oil.litres;
+    std::setprecision(10);
+    os << "price: " << oil.price << " dollars litres: " << oil.litres << " totalPrice: " <<std::fixed<< oil.totalPrice<< "dollars";
     return os;
 }
+
+
+double Oil::getTotalPrice() const {
+    return totalPrice;
+}
+
+void Oil::setTotalPrice(double totalPrice) {
+    Oil::totalPrice = totalPrice;
+}
+
+std::string Oil::toString() {
+    std::stringstream ss;
+    ss<< (*this) << std::endl;
+    return ss.str();
+}
+

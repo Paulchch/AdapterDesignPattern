@@ -5,5 +5,10 @@
 #include "OilInGallonsAdapter.h"
 
 Oil OilInGallonsAdapter::buyOilInGallons(double price, double quantityInGallons) {
-    return Oil(0, 0);
+    double quantityInLitre = convertGallonsToLitre(quantityInGallons);
+    return oilInLitre->buyOil(price, quantityInLitre);
+}
+
+double OilInGallonsAdapter::convertGallonsToLitre(double gallonQuantity) {
+    return gallonQuantity * GALLON_X_LITRE;
 }

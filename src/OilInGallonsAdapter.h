@@ -6,15 +6,18 @@
 #define STRUCTURALADAPTERDP_OILINGALLONSADAPTER_H
 #include"IOilInGallons.h"
 #include "IOilInLitre.h"
+#include "OilInLitres.h"
 
 class OilInGallonsAdapter : public IOilInGallons{
 private:
+    IOilInLitre *oilInLitre = new OilInLitres();
 public:
+    double GALLON_X_LITRE = 3.78541;
+
     Oil buyOilInGallons(double price, double quantityInGallons) override;
 
-private:
-    IOilInLitre *iOilInLitre;
-public:
+    double convertGallonsToLitre(double gallonQuantity);
+
 };
 
 
